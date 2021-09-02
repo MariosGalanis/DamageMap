@@ -20,8 +20,15 @@ In the folder "code files" one can find the following jupyter notebooks:
 In the folder "models and checkpoints" one can find some of the models discussed in the paper ready for use (due to space limitations some other models were not uploaded). Moreover, this folder contains some checkpoint files ("Train Models.ipynb" can illustrate how to use them), that contain useful information about the models, like the optimizer used during their training, their optimal parameters for the classification task discussed in the paper, and their validation accuracy on the Xbd validation set.
 
 ## How to use our model
+1. If the user has a single GeoTiff image covering a large land area (town, city, etc.) then they need to start by running the "create_input_images.py" script, which will cropp square images around the buildings of the area contained in the GeoTiff image. If the user already has separated images depicting individual buildings, then they can skip step 1.
+
+2. The user can follow the instructions listed in "Use Model on New Dataset.ipynb" to classify the images of their dataset and they can optionally use "Visualize the performance of the model.ipynb" to evaluate the model performance.
 
 ## How to train your own model
+1. Once again, if the user has a single GeoTiff image covering a large land area (town, city, etc.) then they need to start by running the "create_input_images.py" script, which will cropp square images around the buildings of the area contained in the GeoTiff image. If the user already has separated images depicting individual buildings, then they can skip step 1.
+2. I the dataset is imbalanced, the script "Data Augmentation.ipynb" can be used to perform data augmentation.
+3. The user can follow the instruction listed in "Train Models.ipynb" to create their own model with their own hyper-parameter choices.
+4. Use the model and evaluate its performance using "Use Model on New Dataset.ipynb" and "Visualize the performance of the model.ipynb" respectively.
 
 ## Model Visualization
 
