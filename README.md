@@ -18,3 +18,15 @@ In the folder "code files" one can find the following jupyter notebooks:
 
 ## Models
 In the folder "models and checkpoints" one can find some of the models discussed in the paper ready for use (due to space limitations some other models were not uploaded). Moreover, this folder contains some checkpoint files ("Train Models.ipynb" can illustrate how to use them), that contain useful information about the models, like the optimizer used during their training, their optimal parameters for the classification task discussed in the paper, and their validation accuracy on the Xbd validation set.
+
+## How to use our model
+
+## How to train your own model
+
+## Model Visualization
+
+To visualize better how the model works one can visit the devpost page or the repository that we made for "Big Earth Hackathon: Wildland Fire Challenge 2020".
+
+Devpost page link: https://devpost.com/software/damagenet-post-wildfire-building-damage-detector
+
+GitHub repo link: https://github.com/kkraoj/damaged_structures_detector
